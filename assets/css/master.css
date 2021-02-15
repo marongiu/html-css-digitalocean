@@ -20,6 +20,17 @@ nav.navbar {
   color: #031c4e;
 }
 
+/* Hamburger */
+
+.navbar-toggle {
+  border: none;
+  padding-top: 16px;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #0063FF;
+}
+
 /* Spostamento liste */
 
 ul.navbar-left{
@@ -29,6 +40,7 @@ ul.navbar-left{
 .navbar-right {
   overflow-x: hidden;
 }
+
 #sign {
   border: 1px solid #006aff;
   color: #006aff;
@@ -40,13 +52,82 @@ ul.navbar-left{
 /* Jumbotron */
 .bg-header {
   margin-top: 90px;
-  background-image: url("../img/bg-blue.svg");
+  background-image: url("../img/bg-sea.svg");
   width: 100%;
+  padding-bottom: 40px;
 }
+
+.title {
+  padding-top: 30px;
+}
+
+.register {
+  background-color: #ffff;
+  border-radius: 5px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.register h3 {
+  padding-top: 30px;
+}
+
+a.blue {
+  font-size: 20px;
+}
+
+form.signup button#google {
+  position: relative;
+  background-color: #ffff;
+  color: #626262;
+}
+
+.signup input {
+  width: 90%;
+  padding: 5px 0;
+  margin-top: 10px;
+  border-radius: 3px;
+  border: 1px solid #eeeeee;
+}
+
+.signup button {
+  color: #ffff;
+  background-color: #579aff;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 0;
+  margin-top: 7px;
+  width: 90%;
+}
+
+.signup i {
+  color: #579aff;
+  position: absolute;
+  top: 5px;
+  left: 5px;
+}
+
+.register p {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.register p a.blue {
+  font-size: 12px;
+  text-decoration: underline;
+}
+
 
 /* UTILIES */
 .white {
   color: #ffff;
+}
+
+.grey {
+  color: #bbcdff;
+}
+
+.blue {
+  color: #006aff;
 }
 /* Media query */
 
