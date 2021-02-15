@@ -18,9 +18,12 @@ nav.navbar {
 /* Spostamento liste */
 
 ul.navbar-left{
-  padding-left: 80px;
+  padding-left: 70px;
 }
 
+.navbar-right {
+  overflow-x: hidden;
+}
 #sign {
   border: 1px solid #006aff;
   color: #006aff;
