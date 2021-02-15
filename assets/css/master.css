@@ -5,6 +5,10 @@
 }
 
 nav.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
   padding: 10px;
   background: #fff;
   border: none;
@@ -30,4 +34,17 @@ ul.navbar-left{
   border-radius: 7px;
   padding: 8px 12px;
   margin-top: 12px;
+}
+
+/* Media query */
+
+@media all and (max-width: 992px) {
+
+  .navbar-left, .navbar-right {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
 }
