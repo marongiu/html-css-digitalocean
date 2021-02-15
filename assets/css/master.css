@@ -12,6 +12,7 @@ nav.navbar {
   padding: 10px;
   background: #fff;
   border: none;
+  z-index: 1;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -36,15 +37,34 @@ ul.navbar-left{
   margin-top: 12px;
 }
 
+/* Jumbotron */
+.bg-header {
+  margin-top: 90px;
+  background-image: url("../img/bg-blue.svg");
+  width: 100%;
+}
+
+/* UTILIES */
+.white {
+  color: #ffff;
+}
 /* Media query */
 
 @media all and (max-width: 992px) {
-
   .navbar-left, .navbar-right {
     display: none;
   }
 
   .navbar-toggle {
     display: block;
+    margin-right: 0;
   }
+
+  .navbar-header {
+    width: 100%;
+  }
+}
+
+@media all and (max-width: 768px) {
+  /* TODO:  */
 }
