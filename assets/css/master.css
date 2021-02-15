@@ -1,9 +1,30 @@
 /* NavBar  */
 
 .navbar-brand img {
-  width: 170px;
+  width: 160px;
 }
 
-.navbar {
-  padding: 10px 0px;
+nav.navbar {
+  padding: 10px;
+  background: #fff;
+  border: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  padding-top: 20px;
+  color: #031c4e;
+}
+
+/* Spostamento liste */
+
+ul.navbar-left{
+  padding-left: 80px;
+}
+
+#sign {
+  border: 1px solid #006aff;
+  color: #006aff;
+  border-radius: 7px;
+  padding: 8px 12px;
+  margin-top: 12px;
 }
