@@ -242,6 +242,34 @@ img#angle{
   font-size: 50px;
 }
 
+/* Sezione contry */
+
+.bg-country {
+  background-color: #0046c4;
+  margin-top: 40px;
+}
+
+a.country-color {
+  color: #00b0cc;
+}
+
+ul.country-list li {
+  position: relative;
+  width: 100%;
+  display: inline-block;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ffff;
+}
+
+ul.country-list {
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+
 /* Media query */
 
 /* Tablet */
