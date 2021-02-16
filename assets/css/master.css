@@ -147,6 +147,10 @@ form.signup button#google {
   margin-top: 40px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 h1 {
   font-size: 50px;
   font-weight: bold;
@@ -195,12 +199,34 @@ ul.main-list li a {
 /* Sezione designed */
 
 img#page {
-  /* width: 150px; */
+  width: 100%;
 }
 
 .card {
-
+  padding-top: 50px;
+  margin: 0 auto;
+  max-width: 250px;
 }
+
+/* Lista circle */
+
+ul.circle li {
+  list-style: none;
+  display: inline;
+}
+
+ul.circle {
+  padding: 0;
+}
+
+.fa-circle {
+  color: #006aff;
+}
+.my-circle {
+  background-color: #006aff;
+  border-radius: 100%;
+}
+
 
 /* Media query */
 
