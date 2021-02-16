@@ -245,6 +245,10 @@ ul.circle {
     width: 100%;
   }
 
+  .card {
+    max-width: 400px;
+  }
+
 }
 
 /* Smartphone */
@@ -261,5 +265,13 @@ ul.circle {
 
   a.customer {
     font-size: 12px;
+  }
+}
+
+/* Desktop */
+
+@media all and (min-width: 992px) {
+  .card {
+    max-width: 550px;
   }
 }
