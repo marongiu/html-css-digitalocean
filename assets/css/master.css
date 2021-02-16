@@ -205,8 +205,14 @@ img#page {
 .card {
   padding-top: 50px;
   margin: 0 auto;
-  max-width: 250px;
+  max-width: 300px;
+  vertical-align: middle;
 }
+
+.fa-angle-right, .fa-angle-left {
+  padding-top: 125px;
+}
+
 
 /* Lista circle */
 
@@ -222,11 +228,19 @@ ul.circle {
 .fa-circle {
   color: #006aff;
 }
+
 .my-circle {
   background-color: #006aff;
   border-radius: 100%;
 }
 
+img#angle{
+  width: 50px;
+}
+
+.fa-angle-right, .fa-angle-left {
+  font-size: 50px;
+}
 
 /* Media query */
 
@@ -249,6 +263,18 @@ ul.circle {
     max-width: 400px;
   }
 
+  .fa-angle-right, .fa-angle-left {
+    padding-top: 125px;
+  }
+
+  .fa-angle-right {
+    margin-right: 100%;
+  }
+
+  .fa-angle-left {
+    margin-left: 90%;
+  }
+
 }
 
 /* Smartphone */
@@ -258,13 +284,21 @@ ul.circle {
     font-weight: bold;
   }
 
-
   h2 {
     font-size: 25px;
   }
 
   a.customer {
     font-size: 12px;
+  }
+
+  .fa-angle-right, .fa-angle-left {
+    visibility: hidden;
+  }
+
+  ul.circle {
+    padding-top: 50px;
+    padding-bottom: 20px;
   }
 }
 
@@ -273,5 +307,17 @@ ul.circle {
 @media all and (min-width: 992px) {
   .card {
     max-width: 550px;
+  }
+
+  .fa-angle-right, .fa-angle-left {
+    padding-top: 200px;
+  }
+
+  .fa-angle-right {
+    margin-right: 90%;
+  }
+
+  .fa-angle-left {
+    margin-left: 90%;
   }
 }
