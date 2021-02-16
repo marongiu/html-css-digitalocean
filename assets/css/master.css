@@ -3,9 +3,7 @@
   width: 160px;
 }
 
-body {
-  height: 100000px;
-}
+
 nav.navbar {
   position: fixed;
   top: 0;
@@ -118,7 +116,7 @@ form.signup button#google {
   font-size: 12px;
   margin-top: 20px;
 }
-.register p a.blue {
+.register p a.blue{
   font-size: 12px;
   text-decoration: underline;
 }
@@ -137,6 +135,14 @@ form.signup button#google {
   color: #006aff;
 }
 
+.darkblue {
+  color: #031c4e;
+}
+
+.lightgrey {
+  color: #5c6a88;
+}
+
 .mt-40 {
   margin-top: 40px;
 }
@@ -146,24 +152,53 @@ h1 {
   font-weight: bold;
 }
 
-p {
-  font-size: 17px;
+.medium {
+  font-size: 20px;
 }
-
+.mt-50 {
+  margin-top: 50px;
+}
 /* MAIN */
 
 .bg-main {
   background-color: #f3f5f9;
+  padding-bottom: 20px;
 }
 .main-title {
   margin-top: 40px;
   color: #6f7b97;
 }
 
+.logo-main {
+  text-align: center;
+}
+ #deploy-title {
+   margin-top: 50px;
+ }
+/* LISTA */
+ul.main-list {
+  padding: 0;
+  margin-bottom: 40px;
+}
+
+ul.main-list li{
+  list-style: none;
+  border-left: 1px solid #5c6a88;
+  padding: 6px 5px;
+}
+
+ul.main-list li a {
+  color: #5c6a88;
+}
+
+/* Sezione designed */
+
+
 
 /* Media query */
 
-@media all and (max-width: 992px) {
+/* Tablet */
+@media all and (min-width:768px) and (max-width: 992px) {
   .navbar-left, .navbar-right {
     display: none;
   }
@@ -179,17 +214,19 @@ p {
 
 }
 
+/* Smartphone */
 @media (max-width: 768px) {
   h1 {
     font-size: 31px;
     font-weight: bold;
   }
 
-  p {
-    font-size: 20px;
-  }
 
   h2 {
     font-size: 25px;
+  }
+
+  a.customer {
+    font-size: 12px;
   }
 }
