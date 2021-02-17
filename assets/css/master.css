@@ -166,6 +166,10 @@ h1 {
 .mb-40 {
   margin-bottom: 40px;
 }
+
+a.blue {
+  font-size: 14px;
+}
 /* MAIN */
 
 .bg-main {
@@ -217,9 +221,6 @@ img#page {
   padding-top: 125px;
 }
 
-a.blue {
-  font-size: 14px;
-}
 
 /* Lista circle */
 
