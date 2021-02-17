@@ -196,7 +196,7 @@ ul.main-list {
 
 ul.main-list li{
   list-style: none;
-  border-left: 1px solid #5c6a88;
+  border-left: 3px solid #cccccc;
   padding: 6px 5px;
 }
 
@@ -356,7 +356,7 @@ ul.footer li a {
 .help {
   position: fixed;
   bottom: 5%;
-  right: 0
+  right: 0;
 }
 
 .help-button {
@@ -376,6 +376,14 @@ ul.footer li a {
   padding: 10px;
   border-radius: 5px;
   vertical-align: middle;
+}
+
+.triangle {
+  display: inline;
+  font-size: 25px;
+  color: #ffff;
+  vertical-align: middle;
+  margin-right: -4px;
 }
 
 .help-two {
@@ -414,7 +422,7 @@ ul.footer li a {
   .help-two {
     display: block;
     position: fixed;
-    bottom: 0;
+    bottom: 2%;
     left: 15%;
   }
 
@@ -468,7 +476,7 @@ ul.footer li a {
   .help-two {
     display: block;
     position: fixed;
-    bottom: 0;
+    bottom: 2%;
     left: 5%;
   }
 
