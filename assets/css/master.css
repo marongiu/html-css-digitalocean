@@ -3,6 +3,9 @@
   width: 160px;
 }
 
+body {
+  height: 10000px;
+}
 
 nav.navbar {
   position: fixed;
@@ -162,6 +165,10 @@ h1 {
 .mt-50 {
   margin-top: 50px;
 }
+
+.mb-40 {
+  margin-bottom: 40px;
+}
 /* MAIN */
 
 .bg-main {
@@ -175,7 +182,7 @@ h1 {
 
 .logo-main img {
   width: 100%;
-  height: 60px;
+  height: 80px;
 }
  #deploy-title {
    margin-top: 50px;
@@ -247,64 +254,41 @@ img#angle{
 .bg-country {
   background-color: #0046c4;
   margin-top: 40px;
+  padding-bottom: 80px;
 }
 
 a.country-color {
-  color: #00b0cc;
+  color: #00cbcf;
 }
 
-ul.country-list li {
+.country-list {
   position: relative;
-  width: 100%;
-  display: inline-block;
-  padding-bottom: 10px;
-  border-bottom: 1px solid #ffff;
-}
-
-ul.country-list {
-  padding: 0;
-  margin: 0;
+  border-bottom: 1px solid #fff;
+  padding: 8px 0;
 }
 
 
+.country-list div.white {
+  margin-left: 2%;
+}
 
+.country-list div.lightgrey {
+  position: absolute;
+  top: 8px;
+  left: 20%;
+}
 
+.country-list div.testspeed {
+  position: absolute;
+  top: 8px;
+  left: calc(100% - 90px);
+}
+
+.border {
+  border-bottom: none;
+}
 
 /* Media query */
-
-/* Tablet */
-@media all and (min-width:768px) and (max-width: 992px) {
-  .navbar-left, .navbar-right {
-    display: none;
-  }
-
-  .navbar-toggle {
-    display: block;
-    margin-right: 0;
-  }
-
-  .navbar-header {
-    width: 100%;
-  }
-
-  .card {
-    max-width: 400px;
-  }
-
-  .fa-angle-right, .fa-angle-left {
-    padding-top: 125px;
-  }
-
-  .fa-angle-right {
-    margin-right: 100%;
-  }
-
-  .fa-angle-left {
-    margin-left: 90%;
-  }
-
-}
-
 /* Smartphone */
 @media (max-width: 768px) {
   h1 {
@@ -329,6 +313,40 @@ ul.country-list {
     padding-bottom: 20px;
   }
 }
+
+/* Tablet */
+@media all and (min-width:768px) and (max-width: 992px) {
+  .navbar-left, .navbar-right {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+    margin-right: 0;
+  }
+
+  .navbar-header {
+    width: 100%;
+  }
+
+  .card {
+    max-width: 400px;
+  }
+
+  .fa-angle-right, .fa-angle-left {
+    padding-top: 130px;
+  }
+
+  .fa-angle-right {
+    margin-right: 100%;
+  }
+
+  .fa-angle-left {
+    margin-left: 90%;
+  }
+
+}
+
 
 /* Desktop */
 
