@@ -1,9 +1,13 @@
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+
 /* NavBar  */
 .navbar-brand img {
   width: 160px;
 }
-
-
 nav.navbar {
   position: fixed;
   top: 0;
