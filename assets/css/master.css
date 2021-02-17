@@ -108,8 +108,9 @@ form.signup button#google {
   padding: 3px 0;
   margin-top: 7px;
   width: 90%;
-  box-shadow: 1px 1px 1px 1px #888888;
+  font-weight: 500px;
 }
+
 
 .signup i {
   color: #579aff;
@@ -121,6 +122,7 @@ form.signup button#google {
 .register p {
   font-size: 12px;
   margin-top: 20px;
+  padding: 0 5px;
 }
 .register p a.blue{
   font-size: 12px;
