@@ -3,9 +3,6 @@
   width: 160px;
 }
 
-body {
-  height: 10000px;
-}
 
 nav.navbar {
   position: fixed;
@@ -312,6 +309,44 @@ a.country-color {
   color: #006aff;
 }
 
+/* footer */
+
+.bg-darkblue {
+  background-color: #031c4e;
+}
+
+.darkgrey {
+  color: #8b94a9;
+}
+
+ul.social-list {
+  padding: 0;
+  margin: 0;
+}
+
+ul.social-list li {
+  display: inline-block;
+  padding-right: 10px;
+}
+
+ul.social-list li a i {
+  font-size: 20px;
+  color: #7a859d;
+}
+
+ul.footer {
+  padding: 0;
+  margin: 10px 0;
+}
+
+ul.footer li {
+  list-style: none;
+  padding: 3px 0;
+}
+
+ul.footer li a {
+  color: #a6adbd;
+}
 
 /* Media query */
 /* Smartphone */
@@ -393,5 +428,9 @@ a.country-color {
 
   .fa-angle-left {
     margin-left: 90%;
+  }
+
+  ul.footer{
+    margin-top: 50px;
   }
 }
