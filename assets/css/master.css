@@ -272,6 +272,7 @@ a.country-color {
   position: relative;
   border-bottom: 1px solid #fff;
   padding: 8px 0;
+  font-weight: 500;
 }
 
 
@@ -401,7 +402,6 @@ ul.footer li a {
 @media (max-width: 768px) {
   h1 {
     font-size: 31px;
-    font-weight: bold;
   }
 
   h2 {
@@ -450,6 +450,14 @@ ul.footer li a {
 
 /* Tablet */
 @media all and (min-width:768px) and (max-width: 992px) {
+
+  h1 {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+  }
   .navbar-left, .navbar-right {
     display: none;
   }
