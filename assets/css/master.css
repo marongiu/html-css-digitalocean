@@ -353,6 +353,35 @@ ul.footer li a {
   color: #a6adbd;
 }
 
+.help {
+  position: fixed;
+  bottom: 5%;
+  right: 0
+}
+
+.help-button {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/shark.png");
+  background-size: 100%;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+.help-comment {
+  display: inline-block;
+  background-color: #ffff;
+  width: 80%;
+  padding: 10px;
+  border-radius: 5px;
+  vertical-align: middle;
+}
+
+.help-two {
+  display: none;
+}
+
 /* Media query */
 /* Smartphone */
 @media (max-width: 768px) {
@@ -381,6 +410,28 @@ ul.footer li a {
   .rocker img {
     width: 100%;
   }
+
+  .help-two {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 15%;
+  }
+
+  .help {
+    display: none;
+  }
+
+  .help-comment {
+    display: block;
+    margin-top: 20px;
+    background-color: #ffff;
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+  }
+
 }
 
 /* Tablet */
@@ -413,6 +464,28 @@ ul.footer li a {
   .fa-angle-left {
     margin-left: 90%;
   }
+
+  .help-two {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    left: 5%;
+  }
+
+  .help {
+    display: none;
+  }
+
+  .help-comment {
+    display: block;
+    margin-top: 20px;
+    background-color: #ffff;
+    width: 85%;
+    padding: 10px;
+    border-radius: 5px;
+    vertical-align: middle;
+  }
+
 }
 
 
