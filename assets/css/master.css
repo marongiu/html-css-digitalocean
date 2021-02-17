@@ -288,6 +288,17 @@ a.country-color {
   border-bottom: none;
 }
 
+/* Sezione rocker */
+
+.rocker {
+  background-color: #fff;
+  margin-top: 60px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+
+
 /* Media query */
 /* Smartphone */
 @media (max-width: 768px) {
@@ -311,6 +322,10 @@ a.country-color {
   ul.circle {
     padding-top: 50px;
     padding-bottom: 20px;
+  }
+
+  .rocker img {
+    width: 100%;
   }
 }
 
@@ -344,7 +359,6 @@ a.country-color {
   .fa-angle-left {
     margin-left: 90%;
   }
-
 }
 
 
